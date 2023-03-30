@@ -1,11 +1,13 @@
 .cover {
   margin: 0 auto;
   max-width: 1184px;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
+  min-height: 100%;
+  display: inline-grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  grid-template-rows: repeat(auto-fit, 1fr);
+  box-sizing: border-box;
+
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
