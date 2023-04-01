@@ -1,13 +1,9 @@
 .header__lang {
   margin-top: 18px;
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px){
-
-}
-
-@media screen and (min-width: 321px) and (max-width: 768px) {
-
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 320px) {

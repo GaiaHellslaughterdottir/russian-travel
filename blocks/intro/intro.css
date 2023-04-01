@@ -9,13 +9,13 @@
   padding-top: 80px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (max-width: 1024px){
   .intro {
     padding-top: 82px;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
  .intro {
    max-width: 720px;
    margin: 0 auto 88px auto;

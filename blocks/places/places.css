@@ -9,15 +9,10 @@
   padding-top: 92px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px){
-
-}
-
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .places {
     max-width: 768px;
     padding-top: 88px;
-
   }
 }
 
@@ -25,6 +20,5 @@
   .places {
     max-width: 320px;
     padding-top: 64px;
-
   }
 }

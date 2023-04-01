@@ -5,19 +5,9 @@
   color: #FFFFFF;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-
-}
-
-@media screen and (min-width: 321px) and (max-width: 768px) {
-
-}
-
 @media screen and (max-width: 320px) {
   .places__website {
     max-width: 320px;
     align-self: start;
-    justify-self: left;
-    margin-top: -12px;
   }
 }

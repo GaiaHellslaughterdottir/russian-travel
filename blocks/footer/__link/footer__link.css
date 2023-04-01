@@ -11,13 +11,18 @@
   opacity: 80%;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+.footer__link:last-child {
+  margin: 0;
+
+}
+
+@media screen and (max-width: 1024px) {
   .footer__link {
     margin: 0 15px 0 0;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .footer__link {
     margin: 0 13px 0 0;
   }

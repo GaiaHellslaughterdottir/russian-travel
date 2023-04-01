@@ -7,14 +7,6 @@
   text-decoration: none;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-
-}
-
-@media screen and (min-width: 321px) and (max-width: 768px) {
-
-}
-
 @media screen and (max-width: 320px) {
   .footer__copyright {
     margin-top: 16px;

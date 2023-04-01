@@ -7,16 +7,15 @@
   padding-bottom: 80px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (max-width: 1024px){
   .places__place {
     max-width: 928px;
     grid-template-columns: calc(440 / 928 * 100%) calc(456 / 928 * 100%);
     column-gap: 32px;
-    padding-bottom: 80px;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .places__place {
     max-width: 768px;
     grid-template-columns: calc(340 / 768 * 100%) calc(352 / 768 * 100%);
