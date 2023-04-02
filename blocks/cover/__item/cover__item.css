@@ -1,19 +1,11 @@
 .cover__item {
   width: 100%;
-  /*
-  min-height: 740px;
-  */
-  /*
-  width: 100%;
-  */
   display: flex;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
-  padding: 50px;
-
-  /*z-index: 2;
-  grid-column: 1/1;
-  grid-row: 2/3;
-  align-self: center;*/
+  text-decoration: none;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
+
 
