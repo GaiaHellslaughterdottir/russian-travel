@@ -1,10 +1,14 @@
 .places__place {
   max-width: 984px;
+  margin: 80px 0 0 0;
   display: grid;
   grid-template-columns: calc(460 / 984 * 100%) calc(484 / 984 * 100%);
   column-gap: 40px;
   row-gap: 48px;
-  padding-bottom: 80px;
+}
+
+.places__place:first-child {
+  margin: 0;
 }
 
 @media screen and (max-width: 1024px){
@@ -12,26 +16,27 @@
     max-width: 928px;
     grid-template-columns: calc(440 / 928 * 100%) calc(456 / 928 * 100%);
     column-gap: 32px;
+    margin: 80px 0 0 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places__place {
-    max-width: 768px;
-    grid-template-columns: calc(340 / 768 * 100%) calc(352 / 768 * 100%);
+    margin: 73px 0 0 0;
+    max-width: 720px;
+    grid-template-columns: calc(340 / 720 * 100%) calc(352 / 720 * 100%);
     column-gap: 28px;
-    padding-bottom: 59px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places__place {
+    margin: 50px 0 0 0;
     max-width: 320px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-items: left;
-    padding-bottom: 50px;
     row-gap: 32px;
   }
 }
