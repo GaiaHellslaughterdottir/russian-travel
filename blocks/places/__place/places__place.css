@@ -11,7 +11,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1279px){
   .places__place {
     max-width: 928px;
     grid-template-columns: calc(440 / 928 * 100%) calc(456 / 928 * 100%);
@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .places__place {
     margin: 73px 0 0 0;
     max-width: 720px;
@@ -29,7 +29,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .places__place {
     margin: 50px 0 0 0;
     max-width: 320px;

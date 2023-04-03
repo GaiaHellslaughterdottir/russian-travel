@@ -1,12 +1,15 @@
 .cover__background {
-  max-width: 100%;
-  max-height: 100%;
-  grid-column: 1/1;
-  grid-row: 2/3;
-  align-self: center;
-  opacity: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgba(42, 44, 47, 0.3);
 }
 
+
 .cover__background:hover {
-  opacity: 30%;
+  background-color: rgba(42, 44, 47, 0.8);
 }
